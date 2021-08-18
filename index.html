@@ -1,0 +1,44 @@
+
+<html>
+	
+	<head>
+	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>SIM800L library</title>
+	
+	</head>
+	<body style="width: 40%; text-align:justify; position:center; margin: 0% 30% 0% 30%" >
+		<h2>SIM800L library for ESP32</h2>
+
+		<p>
+		
+		<br>
+		<a href="https://github.com/KristianK1/SIM800L-http-get-library">Project link</a>
+		<br>
+		<br>
+		<br>
+		<br>
+			This is a library for http-get visit for SIM800L.
+			The code is intended for ESP32, which means that it uses Serial2 port
+			instead of Serial or SoftwareSerial
+			<br>
+			First you make an object of type SIM800L_S2.
+			<br>
+			Then you set a link with a
+			function setLink(string), it can only visit http links.
+			<br>
+			<br>
+			Then call the function access() until you get a
+			return value of 3.
+			<br>
+			<br>
+			In my project a ThingsMobile SIM card was used, which I recomend.
+			<a href="https://www.thingsmobile.com/business">ThingsMobile</a>
+			<br>
+			<br>
+			Because of that I used "TM" for APN name, you can change it in line 54.
+
+	</body>
+</html>
+	
